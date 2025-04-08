@@ -14,6 +14,8 @@
   * https://www.pgadmin.org/download/pgadmin-4-windows/
 * iisnode
   * https://github.com/azure/iisnode/wiki/iisnode-releases
+* IIS URL Rewrite
+  * https://www.iis.net/downloads/microsoft/url-rewrite
 
 ## 安裝套件
 ```
