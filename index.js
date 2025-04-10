@@ -4,12 +4,14 @@ const app = express();
 
 // 建議監聽 127.0.0.1 而不是所有接口
 const port = process.env.PORT || 3000; // IISNODE 會提供 PORT
-const host = '127.0.0.1';
+// const host = '127.0.0.1';
 
 app.get('/api/hello', (req, res) => {
   res.json({ message: 'Hello, world!' });
 });
 
-app.listen(port, host, () => {
-  console.log(`Server is running at http://${host}:${port}`);
+// app.listen(port, host, () => {
+app.listen(port, () => {
+  // console.log(`Server is running at http://${host}:${port}`);
+  console.log(`Server is running at http://IP:${port}`);
 });
